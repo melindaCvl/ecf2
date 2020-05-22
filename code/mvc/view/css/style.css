@@ -1,0 +1,110 @@
+body{
+	background-color: rgb(90,127,70);
+}
+
+footer{
+	color : rgb(179,255,141);
+	width : 100%;
+	background-color : rgb(134,191,106);
+	border-radius : 5px;
+	padding : 5px;
+}
+
+.btn{
+	background-color:rgb(134,191,106);
+	color: rgb(45,64,35);
+	border : rgb(134,191,106);
+}
+
+.btn:hover{
+	background-color:rgb(45,64,35);
+	border : rgb(134,191,106);
+}
+
+/*accueil public*/
+#banniere{
+	background-image:url("../images/public/header.jpg");
+	height: 400px;
+	width: 100%;
+	position:relative;
+}
+
+#logo_public{
+	position:absolute;
+	height:249px;
+	width:360px;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	background-image:url("../images/logo/logo.png");
+}
+
+.infos_public{
+	background-color: rgb(179,255,141);
+	padding : 7px;
+	border : solid 2px rgb(90,127,70);
+	color : rgb(45,64,35);
+	border-radius : 10px;
+}
+
+/*accueil membre*/
+.header_utilisateur nav{
+	background-color : white;
+}
+
+#photo_banniere nav{
+	text-align:right;
+}
+
+/*accueil admin*/
+aside{
+	background-color:rgba(255,255,255,0.2);
+	height: 500px;
+	color : white;
+}
+
+#content_admin{
+	background-color: rgba(255,255,255,0.8);
+}
+
+/*accueil membre*/
+#header_membre{
+	width:100%;
+}
+
+#header_membre nav{
+	padding-sleft : 65%;
+	background-color : rgb(134,191,106);
+}
+
+#header_membre nav a{
+	color : white;
+}
+
+#logo_membre{
+	position:absolute;
+	height:249px;
+	width:360px;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	background-image:url("../images/logo/logo.png");
+}
+
+#informations_membre{
+	width : 30%;
+	float : left;
+}
+
+.view_membre{
+	width:70%;
+	display : inline-block;
+	word-wrap : break-word;
+}
+
+#photo_banniere{
+	background-image:url("../images/membre/banniere.jpg");
+	height: 400px;
+	width: 100%;
+	position:relative;
+}

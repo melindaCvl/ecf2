@@ -1,0 +1,20 @@
+/*accueil membre*/
+#informations_membre{
+	width : 100%;
+}
+
+#bulletin_infos{
+	width:50%;
+	float:left;
+}
+
+.view_membre{
+	width : 100%;
+}
+
+#logo_membre{
+	height:138px;
+	width:200px;
+	transform:translate(-177%, -137%);
+	background-image:url("../images/logo/logo_petit.png");
+}
